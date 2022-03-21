@@ -1,3 +1,5 @@
+--This is some exploratory data analysis from a Covid 19 database with infection and vaccination data.
+
 SELECT Location, date, total_cases, new_cases, total_deaths, population
 FROM dbo.CovidDeaths
 ORDER BY 1,2
