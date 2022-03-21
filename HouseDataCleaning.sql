@@ -1,11 +1,12 @@
 /*
 
-Cleaning Data in SQL Queries
+This is a data cleaning project for a Nashville Housing database.
 
 */
 
 ------------------------------------------------------------------------------------------------------------------------------------------
---SELECT * FROM dbo.House
+SELECT * FROM dbo.House
+
 -- Standardize Date Format
 
 SELECT SaleDateConverted, CONVERT(Date,SaleDate)
